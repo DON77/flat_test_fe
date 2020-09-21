@@ -9,6 +9,9 @@ a {
   color: inherit;
   text-decoration: none;
 }
+.App {
+  background-color: rgba(30, 6, 138, 0.097);
+}
 header {
   z-index: 1;
   display: flex;
@@ -52,6 +55,7 @@ header {
 }
 
 .container {
+  margin: auto;
   width: 100%;
   max-width: 1440px;
   background-color: rgba(30, 6, 138, 0.097);

@@ -26,9 +26,8 @@ const Card = ({handleFavorite, data, isLoggedIn}) => {
         <div className="card-content">
           <p className="typeOfHouse">{data.type}</p>
           <p>{title}</p>
-          <p>{unit}</p>
           <p>{`rooms: ${rooms}`}</p>
-          <p>{`area: ${area}`}</p>
+          <p>{`area: ${area} ${unit}`}</p>
         </div>
         <div className="card-actions">
           {isLoggedIn &&
