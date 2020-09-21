@@ -5,12 +5,12 @@
   font-family: sans-serif !important;
   font-size: 15px;
 }
+body{
+  background-color: rgba(30, 6, 138, 0.097);
+}
 a {
   color: inherit;
   text-decoration: none;
-}
-.App {
-  background-color: rgba(30, 6, 138, 0.097);
 }
 header {
   z-index: 1;
@@ -58,7 +58,6 @@ header {
   margin: auto;
   width: 100%;
   max-width: 1440px;
-  background-color: rgba(30, 6, 138, 0.097);
   padding: 20px;
 
   .cards{
